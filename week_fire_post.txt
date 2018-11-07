@@ -1,0 +1,16 @@
+Sub main()
+
+Dim i As Integer
+
+For i = 1 To 7
+
+Cells(3, i + 1).Value = Workbooks(i & ".xls").Worksheets(1).Range("O26")
+Cells(4, i + 1).Value = Workbooks(i & ".xls").Worksheets(1).Range("O27")
+Cells(5, i + 1).Value = Workbooks(i & ".xls").Worksheets(1).Range("O28")
+Cells(6, i + 1).Value = Workbooks(i & ".xls").Worksheets(1).Range("O25")
+Cells(7, i + 1).Value = Workbooks(i & ".xls").Worksheets(1).Range("O29")
+Cells(8, i + 1).Value = Workbooks(i & ".xls").Worksheets(1).Range("O30")
+
+Next i
+
+End Sub

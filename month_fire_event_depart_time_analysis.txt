@@ -1,0 +1,7 @@
+Sub main()
+
+Range("C4:D64").Value = Workbooks("9月各大中隊月平均計算機.xlsx").Worksheets("月結果").Range("B4:D64").Value
+Range("E4:F64").Value = Workbooks("9月各大中隊月平均計算機.xlsx").Worksheets("月結果").Range("F4:G64").Value
+Range("G4:H64").Value = Workbooks("9月各大中隊月平均計算機.xlsx").Worksheets("月結果").Range("J4:K64").Value
+
+End Sub

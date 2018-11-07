@@ -1,0 +1,25 @@
+Sub main()
+
+Range("B5:O5").Value = Workbooks("1.xls").Worksheets(1).Range("B7:O7").Value
+Range("B6:O6").Value = Workbooks("1.xls").Worksheets(1).Range("B8:O8").Value
+Range("B7:O11").Value = Workbooks("1.xls").Worksheets(1).Range("B9:O13").Value
+Range("B12:O14").Value = Workbooks("1.xls").Worksheets(1).Range("B26:O28").Value
+Range("B15:O15").Value = Workbooks("1.xls").Worksheets(1).Range("B25:O25").Value
+Range("B16:O18").Value = Workbooks("1.xls").Worksheets(1).Range("B14:O16").Value
+Range("B19:O19").Value = Workbooks("1.xls").Worksheets(1).Range("B18:O18").Value
+Range("B20:O20").Value = Workbooks("1.xls").Worksheets(1).Range("B19:O19").Value
+Range("B21:O21").Value = Workbooks("1.xls").Worksheets(1).Range("B23:O23").Value
+Range("B22:O22").Value = Workbooks("1.xls").Worksheets(1).Range("B33:O33").Value
+Range("B23:O24").Value = Workbooks("1.xls").Worksheets(1).Range("B29:O30").Value
+Range("B25:O25").Value = Workbooks("1.xls").Worksheets(1).Range("B32:O32").Value
+Range("B26:O26").Value = Workbooks("1.xls").Worksheets(1).Range("B17:O17").Value
+Range("B27:O27").Value = Workbooks("1.xls").Worksheets(1).Range("B34:O34").Value
+Range("B28:O30").Value = Workbooks("1.xls").Worksheets(1).Range("B35:O37").Value
+Range("B31:O33").Value = Workbooks("1.xls").Worksheets(1).Range("B20:O22").Value
+Range("B34:O34").Value = Workbooks("1.xls").Worksheets(1).Range("B24:O24").Value
+Range("B35:O35").Value = Workbooks("1.xls").Worksheets(1).Range("B31:O31").Value
+Range("B36:O36").Value = Workbooks("1.xls").Worksheets(1).Range("B38:O38").Value
+Range("B37:O38").Value = Workbooks("1.xls").Worksheets(1).Range("B40:O41").Value
+
+
+End Sub

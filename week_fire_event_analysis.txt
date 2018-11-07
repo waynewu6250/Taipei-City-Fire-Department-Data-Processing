@@ -1,0 +1,30 @@
+Function a(value As Integer, point As String)
+a = Val(Workbooks(value & ".xls").Worksheets(1).Range(point))
+End Function
+
+Sub main()
+
+Dim col(7) As String
+col(1) = "D"
+col(2) = "E"
+col(3) = "F"
+col(4) = "G"
+col(5) = "H"
+col(6) = "I"
+col(7) = "J"
+
+Dim i As Integer
+For i = 1 To 7
+
+Range(col(i) & "3").value = a(i, "BH21")
+Range(col(i) & "4").value = a(i, "H17") * 1000000000 + a(i, "I17") * 100000000 + a(i, "J17") * 10000000 + a(i, "K17") * 1000000 + a(i, "L17") * 100000 + a(i, "M17") * 10000 + a(i, "N17") * 1000 + a(i, "O17") * 100 + a(i, "P17") * 10 + a(i, "Q17")
+Range(col(i) & "5").value = a(i, "I24")
+Range(col(i) & "7").value = a(i, "AU20")
+Range(col(i) & "8").value = a(i, "AU19")
+Range(col(i) & "9").value = a(i, "BH21") + a(i, "BH22")
+Range(col(i) & "10").value = a(i, "AP23") + a(i, "AP24")
+Range(col(i) & "11").value = a(i, "AU23")
+
+Next i
+
+End Sub
