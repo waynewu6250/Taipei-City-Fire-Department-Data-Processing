@@ -187,9 +187,9 @@ def putdata(divisions, dispatchtime, arrivetime, pretime, cur, newdata2):
         
         div_cur += 1
 
-        return newdata2
+    return newdata2
 
-def insert_all_data(browser, newdata, newdata2):
+def insert_all_data(browser, newdata2, newdata):
     table = browser.find_element_by_name("myForm")
     table_rows = table.find_elements_by_tag_name('tr')
 
