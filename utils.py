@@ -13,15 +13,15 @@ from time import sleep
 def open_browser():
     #Open the browser and redirect to home page
     browser = webdriver.Chrome()
-    browser.get("http://10.50.100.119/TFD/TFD_Login.asp")
+    browser.get("http://10.50.100.119/TFD/xxxxxxxxxx.asp")
     return browser
 
 def login(browser):
     #Home Page
     account = browser.find_element_by_name("MemberID")
-    account.send_keys("a2715730205")
+    account.send_keys("xxxxxxxxxxx")
     password =  browser.find_element_by_name("MemberPW")
-    password.send_keys("V121163994")
+    password.send_keys("xxxxxxxxxxxx")
     login_button = browser.find_element_by_name("b1")
     login_button.click()
     return browser
@@ -32,12 +32,12 @@ def find_page(browser):
     button1.click()
     
     #案件維護 Page
-    browser.get("http://10.50.100.119/TFD/CaseMaintain/QueryCase_Select.asp")
+    browser.get("http://10.50.100.119/TFD/CaseMaintain/xxxxxxxxxx.asp")
     from selenium.webdriver.support.select import Select
     select1 = Select(browser.find_element_by_name("Sys_UpdateDate"))
-    select1.select_by_value("1")
+    select1.select_by_value("xxxx")
     select2 = Select(browser.find_element_by_name('AidCaseTypeID2'))
-    select2.select_by_value("5001")
+    select2.select_by_value("xxxx")
     button2 = browser.find_element_by_name("select")
     button2.click()
     
