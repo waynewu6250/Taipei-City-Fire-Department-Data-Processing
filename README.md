@@ -9,7 +9,7 @@ This is the code work fully composed by Ting-Wei Wu to support and accelerate ta
 
 ## 2. day folder: python scraping with selenium:
 * Use `day.ipynb or daily-event-processing.ipynb` to do online scraping from fire department database every day. Record every event's time, divisions, and event contents. <br>
-* Import </utils.py/> for weekday processing; Import </utils.weekend.py.> for weekend processing. <br>
+* Import `utils.py` for weekday processing; Import `utils-weekend.py` for weekend processing. <br>
 
 ## 3. rescue folder: python scraping with selenium:
 * Manage daily event departure time calculation of each divisions for rescue events.
