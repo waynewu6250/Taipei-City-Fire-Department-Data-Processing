@@ -8,7 +8,7 @@ This is the code work fully composed by Ting-Wei Wu to support and accelerate ta
 * week_fire_post.txt: Analysis of public service associated with fire events weekly. <br>
 
 ## 2. day folder: python scraping with selenium:
-* Use /<day.ipynb or daily-event-processing.ipynb/> to do online scraping from fire department database every day. Record every event's time, divisions, and event contents. <br>
+* Use `day.ipynb or daily-event-processing.ipynb` to do online scraping from fire department database every day. Record every event's time, divisions, and event contents. <br>
 * Import </utils.py/> for weekday processing; Import </utils.weekend.py.> for weekend processing. <br>
 
 ## 3. rescue folder: python scraping with selenium:
