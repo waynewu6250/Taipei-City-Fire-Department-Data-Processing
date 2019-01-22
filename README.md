@@ -16,3 +16,6 @@ This is the code work fully composed by Ting-Wei Wu to support and accelerate ta
 
 ## 4. html_scraping folder: python scraping with selenium:
 * Consecutive Checking with availability of url links on Taipei City Fire Department homepage and subpages.
+
+## 5. week folder: python downloads with selenium and os:
+* Automatically download excel files and file manipulation in os for excel vba work.
