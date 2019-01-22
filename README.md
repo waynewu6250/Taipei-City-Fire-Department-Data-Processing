@@ -19,3 +19,6 @@ This is the code work fully composed by Ting-Wei Wu to support and accelerate ta
 
 ## 5. week folder: python downloads with selenium and os:
 * Automatically download excel files and file manipulation in os for excel vba work.
+
+## 6. disable folder: python pandas and selenium:
+* Automatically input all information of people with disability into the personnel database.
