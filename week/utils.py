@@ -13,15 +13,15 @@ from time import sleep
 def open_browser():
     #Open the browser and redirect to home page
     browser = webdriver.Chrome()
-    browser.get("http://10.50.100.119/TFD/xxxxxxxxx.asp")
+    browser.get("http://10.50.100.119/TFD/TFD_Login.asp")
     return browser
 
 def login(browser):
     #Home Page
     account = browser.find_element_by_name("MemberID")
-    account.send_keys("xxxxxxxxxx")
+    account.send_keys("a2715730205")
     password =  browser.find_element_by_name("MemberPW")
-    password.send_keys("xxxxxxxxxx")
+    password.send_keys("V121163994")
     login_button = browser.find_element_by_name("b1")
     login_button.click()
     return browser

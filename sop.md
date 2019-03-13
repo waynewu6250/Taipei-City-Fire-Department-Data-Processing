@@ -25,8 +25,27 @@
 7. 回到週報資料->108年->受理火災word->建立新的word檔->把剛剛跑完的資料複製直接貼上word
 
 ## 3. 局報,週報會議資料每週統計數據: 滿意度調查表
+1. 繼續執行week.ipynb
+2. 等跑完後, 會放在TFD->Documents->Scraping->output.xlsx, 進行篩選選出手機號碼的案件50件即可, 將資料複製到局報,週報會議資料每週統計數據: 滿意度調查表貼上
+3. 把電話貼到fire_post->satisfaction tab, 複製跑好的程式貼回原本的電話欄, 稍微修改一下後面滿意度的地方
+
+＊＊原本做法:
 1. Ｏ槽->共用統計資料夾->役男給的資料放這裡->週報資料->108年->滿意度: 將資料複製到局報,週報會議資料每週統計數據: 滿意度調查表貼上
 2. 把電話貼到fire_post->satisfaction tab, 複製跑好的程式貼回原本的電話欄, 稍微修改一下後面滿意度的地方
 
 ------------------------------
 # 每日SOP
+1. 桌面->jupyter打開->Documents->scraping->day.ipynb打開檔案, 進入按shift+enter執行
+2. 一共有三種模式:
+* 如果是要存取前一天, 直接修改第一個block底下為from utils import *
+  , 直接執行, 跑完三個block即可
+* 如果是前兩天 (如禮拜六), 一樣使用from utils import *, 但要到utils.py裡面, 修改成select1.select_by_value("8"), 並且將下面綠色反白處改回(選取按ctrl+/), 更改日期, 再回到day.ipynb執行
+* 如果是前兩天之前的所有天數 (如禮拜五, 禮拜四...), 直接修改第一個block底下為from utils_weekend import *, 並且到utils_weekend.py裡面修改日期
+, 再回到day.ipynb
+3. 執行完後, 會放在TFD->Documents->Scraping->output.xlsx, 直接全部複製, 到Ｏ槽->給黃國森->！新！(月日)各分隊火警平均出勤時間->找到當月個分隊火警平均出勤時間->新增當日檔案->貼上裡面並且修改火災顏色
+
+------------------------------
+# 聽障資料輸入SOP
+1. 將聽障資料兩個sheet分別存為1.xlsx, 2.xlsx, 放置在TFD->Documents->scraping->disable資料夾裡面
+2. 桌面->jupyter打開->Documents->scraping->disable->disable.ipynb打開檔案, 進入按shift+enter執行, 修改檔案名稱為1.xlsx, 2.xlsx
+3. 執行兩次
