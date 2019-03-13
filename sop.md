@@ -42,7 +42,7 @@
 * 如果是前兩天 (如禮拜六), 一樣使用from utils import *, 但要到utils.py裡面, 修改成select1.select_by_value("8"), 並且將下面綠色反白處改回(選取按ctrl+/), 更改日期, 再回到day.ipynb執行
 * 如果是前兩天之前的所有天數 (如禮拜五, 禮拜四...), 直接修改第一個block底下為from utils_weekend import *, 並且到utils_weekend.py裡面修改日期
 , 再回到day.ipynb
-3. 執行完後, 會放在TFD->Documents->Scraping->output.xlsx, 直接全部複製, 到Ｏ槽->給黃國森->！新！(月日)各分隊火警平均出勤時間->找到當月個分隊火警平均出勤時間->新增當日檔案->貼上裡面並且修改火災顏色
+3. 執行完後, 會放在TFD->Documents->Scraping->output.xlsx, 直接全部複製, 到Ｏ槽->給黃國森->！新！(月日)各分隊火警平均出勤時間->找到當月各分隊火警平均出勤時間->新增當日檔案->貼上裡面並且修改火災顏色
 
 ------------------------------
 # 聽障資料輸入SOP
