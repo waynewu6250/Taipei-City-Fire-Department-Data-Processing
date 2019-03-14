@@ -11,14 +11,18 @@ This is the code work fully composed by Ting-Wei Wu to support and accelerate ta
 * Use `day.ipynb or daily-event-processing.ipynb` to do online scraping from fire department database every day. Record every event's time, divisions, and event contents. <br>
 * Import `utils.py` for weekday processing; Import `utils-weekend.py` for weekend processing. <br>
 
-## 3. rescue folder: python scraping with selenium:
+## 3. week folder: python downloads with selenium and os:
+* Automatically download excel files and file manipulation in os for excel vba work.
+* Scrape the service event of fire divisions by cell phone call for the satisfaction survey purposes.
+
+## 4. month folder: python scraping with selenium:
+* Use `month.ipynb` to record monthly fire rescue events with dispatch, travel and arrival time for tracking and improvements.
+
+## 5. rescue folder: python scraping with selenium:
 * Manage daily event departure time calculation of each divisions for rescue events.
 
-## 4. html_scraping folder: python scraping with selenium:
+## 6. html_scraping folder: python scraping with selenium:
 * Consecutive Checking with availability of url links on Taipei City Fire Department homepage and subpages.
 
-## 5. week folder: python downloads with selenium and os:
-* Automatically download excel files and file manipulation in os for excel vba work.
-
-## 6. disable folder: python pandas and selenium:
+## 7. disable folder: python pandas and selenium:
 * Automatically input all information of people with disability into the personnel database.
