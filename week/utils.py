@@ -19,9 +19,9 @@ def open_browser():
 def login(browser):
     #Home Page
     account = browser.find_element_by_name("MemberID")
-    account.send_keys("a2715730205")
+    account.send_keys("xxxxxxxxxxx")
     password =  browser.find_element_by_name("MemberPW")
-    password.send_keys("V121163994")
+    password.send_keys("xxxxxxxxxxx")
     login_button = browser.find_element_by_name("b1")
     login_button.click()
     return browser
