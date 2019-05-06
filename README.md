@@ -1,3 +1,7 @@
+![](https://img.shields.io/badge/Licensed%20by-Wayne%20Wu-blue.svg)
+![](https://img.shields.io/badge/Language-python-brightgreen.svg)
+
+
 # Taipei-City-Fire-Department-Data-Processing
 This is the code work fully composed by Ting-Wei Wu to support and accelerate taipei city fire department information analysis
 
