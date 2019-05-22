@@ -30,3 +30,9 @@ This is the code work fully composed by Ting-Wei Wu to support and accelerate ta
 
 ## 7. disable folder: python pandas and selenium:
 * Automatically input all information of people with disability into the personnel database.
+
+## 8. weather_analysis folder: python pandas
+* Data processing to find relations between weather condition and personal refusal to hospital delivery when rescued.
+
+## 9. locate folder: python pandas and selenium
+* Automatic validation for vague city address collected in dispatch system by searching on website of Taipei City Department of Civil Affairs.
